@@ -187,7 +187,7 @@ label {
   text-align: center;
   position:absolute;
   left: 400px;
-  top:180px;
+  top:150px;
   padding:10px;
 }
 
@@ -201,7 +201,7 @@ label {
   color:white;
   font-family: Arial;
   font-size:20px;
-  top:210px;
+  top:180px;
   border-radius: 5px;
   left:400px;
   padding:6px 7px;
