@@ -18,6 +18,8 @@
     height: 60px;
     font-size:15px;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .aboutBtn{
@@ -27,6 +29,8 @@
     height: 60px;
     font-size:15px;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 .appsBtn{
     background-color:rgb(0, 78, 160);
@@ -35,6 +39,8 @@
     height: 60px;
     font-size:15px;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .hide{
@@ -52,6 +58,16 @@
 }
 .subHeading1{
     text-decoration:underline;
+    color:white;
+    position: absolute;
+    left: 190px;
+    top:10px;
+    font-family: arial;
+    font-size: 50px;
+    
+}
+
+.subHeading3{
     color:white;
     position: absolute;
     left: 190px;
@@ -105,6 +121,8 @@
     font-size: 15px;
     font-weight: bold;
     background-color: rgb(0, 78, 160);
+    border: none;
+    cursor: pointer;
 }
 
 .computersBtn{
@@ -117,6 +135,8 @@
     font-size: 15px;
     font-weight: bold;
     background-color: rgb(0, 78, 160);
+    border: none;
+    cursor: pointer;
 }
 
 .phoneBox{
@@ -157,6 +177,12 @@
 
 }
 
+.stopwatchApp{
+    position: absolute;
+    left:200px;
+    top:260px;
+}
+
 /*PRODUCTS*/
 
 .prototypeHeading{
@@ -195,7 +221,7 @@ label {
 .collapsible-text {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.5s ease-out;
   background: rgb(0, 78, 160);
   position: absolute;
   color:white;
@@ -209,6 +235,6 @@ label {
 
 /* Show the text when the checkbox is checked */
 #collapsible-head:checked ~ .collapsible-text {
-  max-height: 230px; /* Adjust based on content size */
+  max-height: 430px; /* Adjust based on content size */
   max-width: 320px;
 }
